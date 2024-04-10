@@ -1,0 +1,13 @@
+services:
+  web:
+    build:
+      context: .
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - .:/travel
+      - /travel/node_modules
+    ports:
+      - 5173:5173
+
+
