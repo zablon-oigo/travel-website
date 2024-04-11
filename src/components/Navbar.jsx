@@ -17,10 +17,10 @@ function Navbar() {
         </div>
       </div>
       <div className="flex items-center text-lg capitalize xl:gap-12 gap-x-4 max-lg:hidden">
-        <a href="" className="leading-normal text-black no-underline hover:text-black ">home</a>
-        <a href="" className="leading-normal text-black no-underline hover:text-black ">ticket</a>
-        <a href="" className="leading-normal text-black no-underline hover:text-black ">explore</a>
-        <a href="" className="leading-normal text-black no-underline hover:text-black ">activity</a>
+        <a href="" className="font-semibold leading-normal text-black duration-700 n transition-allo-underline hover:text-light ">home</a>
+        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">ticket</a>
+        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">explore</a>
+        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">activity</a>
       </div>
       <div className="flex gap-4 max-lg:hidden">
         <button className="h-12 px-6 text-base duration-300 bg-transparent rounded shadow outline-none cursor-pointer text-light hover:bg-primary hover:text-white transition-bg hover:border hover:border-primary ">Sign In</button>
@@ -43,11 +43,11 @@ function Navbar() {
           menu && (
             <div className="fixed w-full transition-all lg:hidden top-24 bg-primary">
               <div className="flex flex-col items-baseline w-full gap-4">
-               <div className="">
-               <a href="" className="">home</a>
-                <a href="" className="">ticket</a>
-                <a href="" className="">explore</a>
-                <a href="" className="">activity</a>
+               <div className="flex flex-col justify-center w-full">
+               <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border">home</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border">ticket</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border">explore</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary text-[15px] border">activity</a>
                </div>
               </div>
             </div>
