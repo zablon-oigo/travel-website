@@ -1,5 +1,5 @@
-import React from 'react'
-import {FaArrowRight,FaCalendarAlt} from 'react-icons/fa'
+import React,{useState} from 'react'
+import {FaArrowRight,FaCalendarAlt,FaSearch} from 'react-icons/fa'
 import { FaLocationPin,FaPerson} from "react-icons/fa6";
 function Hero() {
     const[active,setActive]=useState("Hostelry")
@@ -45,7 +45,7 @@ function Hero() {
                         <p className="">Destination</p>
                         <div className="">
                             <FaCalendarAlt/>
-                            <input type='text' placeholder="Bali, Indonesia"/>
+                            <input type='date' defaultValue={"2023-04-11"} placeholder="Bali, Indonesia"/>
 
                         </div>
                     </div>
@@ -53,7 +53,7 @@ function Hero() {
                         <p className="">Destination</p>
                         <div className="">
                             <FaCalendarAlt/>
-                            <input type='text' placeholder="Bali, Indonesia"/>
+                            <input type='date' defaultValue={"2023-04-11"} placeholder="Bali, Indonesia"/>
 
                         </div>
                     </div>
@@ -61,8 +61,13 @@ function Hero() {
                         <p className="">Destination</p>
                         <div className="">
                             <FaPerson/>
-                            <input type='text' placeholder="Bali, Indonesia"/>
+                            <input type='text' placeholder="1 Room, 2 Guest"/>
 
+                        </div>
+                        <div className="">
+                            <button className="">
+                                <FaSearch/>
+                            </button>
                         </div>
                     </div>
                 </div>
