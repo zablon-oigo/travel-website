@@ -2,6 +2,7 @@ import React from 'react'
 import {FaArrowRight,FaCalendarAlt} from 'react-icons/fa'
 import { FaLocationPin,FaPerson} from "react-icons/fa6";
 function Hero() {
+    const[active,setActive]=useState("Hostelry")
   return (
     <>
     <div className=''>
