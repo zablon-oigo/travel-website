@@ -45,7 +45,7 @@ function Card() {
                 <h2 className="text-4xl font-bold">Travel to make sweet memories</h2>
                 <p className="">Find trips that fit a flexible lifestyle</p>
             </span>
-            <div className="items-center justify-between py-16 lg:flex">
+            <div className="items-center justify-between py-6 lg:flex">
                 <div className="lg:w-2/5">
                     <div className="">
                         <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
