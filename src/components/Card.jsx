@@ -68,7 +68,9 @@ function Card() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, dolor error cumque perferendis a!
                         </p>
                     </div>
-                    <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start your explore</button>
+                   <div className="flex justify-center md:justify-start">
+                   <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start your explore</button>
+                   </div>
                 </div>
                 <div className="lg:h-[70vh] h-[30vh] lg:w-3/4 rounded-2xl">
                     <img src={image} alt="" className="w-full h-full rounded-2xl" />
