@@ -40,12 +40,12 @@ function Card() {
                 </div>
             </div>
         </section>
-        <section className="px-12 py-16">
+        <section className="px-4 py-16 lg:px-12">
             <span className="flex flex-col items-center gap-2">
                 <h2 className="text-2xl font-bold lg:text-4xl">Travel to make sweet memories</h2>
                 <p className="text-gray-500">Find trips that fit a flexible lifestyle</p>
             </span>
-            <div className="items-center justify-between py-6 lg:flex">
+            <div className="flex flex-col-reverse items-center justify-between py-6 gap-y-4">
                 <div className="lg:w-2/5">
                     <div className="">
                         <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
@@ -70,7 +70,7 @@ function Card() {
                     </div>
                     <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start your explore</button>
                 </div>
-                <div className="h-[70vh] lg:w-3/4 rounded-2xl">
+                <div className="lg:h-[70vh] h-[30vh] lg:w-3/4 rounded-2xl">
                     <img src={image} alt="" className="w-full h-full rounded-2xl" />
                 </div>
             </div>
