@@ -1,5 +1,6 @@
 import React from 'react'
 import {HiLocationMarker} from 'react-icons/hi'
+import image from '../assets/splash.jpg'
 function Card() {
     const Card=({image,text,location})=>{
         return(
@@ -39,13 +40,13 @@ function Card() {
                 </div>
             </div>
         </section>
-        <section className="py-16">
+        <section className="px-12 py-16">
             <span className="flex flex-col items-center gap-2">
                 <h2 className="text-4xl font-bold">Travel to make sweet memories</h2>
                 <p className="">Find trips that fit a flexible lifestyle</p>
             </span>
             <div className="items-center justify-between py-16 lg:flex">
-                <div className="lg:w-1/2">
+                <div className="lg:w-2/5">
                     <div className="">
                         <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
                         <h2 className="py-4 text-lg font-bold">Find trips that fit your freedom</h2>
@@ -69,8 +70,8 @@ function Card() {
                     </div>
                     <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start your explore</button>
                 </div>
-                <div className="h-full overflow-hidden lg:w-1/2 rounded-2xl">
-                    <img src="" alt="" className="w-full h-full rounded-2xl" />
+                <div className="h-[70vh] lg:w-3/4 rounded-2xl">
+                    <img src={image} alt="" className="w-full h-full rounded-2xl" />
                 </div>
             </div>
         </section>
