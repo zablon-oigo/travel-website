@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="px-10 py-10 ">
         <div className="flex flex-col items-center justify-between w-full md:flex-row">
-            <div className="">
+            <div className="mb-4 lg:mb-0">
                 <h2 className="text-2xl font-bold">Explore</h2>
             </div>
             <div className="flex gap-x-10">
