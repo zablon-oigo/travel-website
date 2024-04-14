@@ -14,6 +14,7 @@ function Footer() {
                 <a href="" className="text-lg capitalize">services</a>
             </div>
         </div>
+        <p className="mt-2 font-light text-md">Copyright {new Date().getFullYear()}</p>
     </footer>
   )
 }
