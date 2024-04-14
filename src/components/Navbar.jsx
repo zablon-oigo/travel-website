@@ -13,7 +13,7 @@ function Navbar() {
     <div className="flex items-center justify-between w-11/12 h-full mx-auto lg:w-full">
       <div className="flex flex-col gap-y-4">
         <div className="flex items-center gap-x-2">
-          <a href="" className="text-lg font-bold capitalize text-primary">explorer</a>
+          <a href="" className="text-xl font-bold capitalize lg:text-2xl text-primary">explorer</a>
         </div>
       </div>
       <div className="flex items-center text-lg capitalize xl:gap-12 gap-x-4 max-lg:hidden">
@@ -24,7 +24,7 @@ function Navbar() {
       </div>
       <div className="flex gap-4 max-lg:hidden">
         <button className="h-12 px-6 text-base duration-300 bg-transparent rounded shadow outline-none cursor-pointer text-light hover:bg-primary hover:text-white transition-bg hover:border hover:border-primary ">Sign In</button>
-        <button className="h-12 px-6 text-base text-white duration-300 rounded shadow outline-none cursor-pointer bg-primary hover:bg-white hover:text-primary ">Sing Up</button>
+        <button className="h-12 px-6 text-base text-white duration-300 rounded shadow outline-none cursor-pointer bg-primary hover:bg-white hover:text-primary ">Sign Up</button>
       </div>
       {menu ? (
         <div className="lg:hidden text-[22px] cursor-pointer text-black" onClick={toggleMenu}>
