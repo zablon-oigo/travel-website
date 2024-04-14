@@ -44,10 +44,10 @@ function Navbar() {
             <div className="fixed w-full transition-all lg:hidden top-20 bg-primary">
               <div className="flex flex-col items-baseline w-full gap-4">
                <div className="flex flex-col justify-center w-full">
-               <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">home</a>
-                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">ticket</a>
-                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">explore</a>
-                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-bold text-lg hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">activity</a>
+               <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-semibold text-lg  hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">home</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-semibold text-lg  hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">ticket</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-semibold text-lg  hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">explore</a>
+                <a href="" className="px-6 h-10 flex items-center leading-normal no-underline text-white font-semibold text-lg  hover:text-primary capitalize text-[15px] border-0 border-b b-[#ffffff1a] border-solid">activity</a>
                </div>
               </div>
             </div>
