@@ -5,13 +5,13 @@ function Footer() {
     <footer className="px-10 py-10 ">
         <div className="flex justify-between w-full">
             <div className="">
-                <h2 className="text-2xl">Explore</h2>
+                <h2 className="text-2xl font-bold">Explore</h2>
             </div>
             <div className="flex gap-x-10">
-                <a href="" className="text-lg capitalize">home</a>
-                <a href="" className="text-lg capitalize">about</a>
-                <a href="" className="text-lg capitalize">contact</a>
-                <a href="" className="text-lg capitalize">services</a>
+                <a href="" className="text-lg font-semibold capitalize">home</a>
+                <a href="" className="text-lg font-semibold capitalize">about</a>
+                <a href="" className="text-lg font-semibold capitalize">contact</a>
+                <a href="" className="text-lg font-semibold capitalize">services</a>
             </div>
         </div>
         <p className="mt-2 font-light text-md">Copyright {new Date().getFullYear()}</p>
