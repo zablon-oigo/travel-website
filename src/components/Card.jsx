@@ -74,7 +74,7 @@ function Card() {
             </div>
 
                 <div className="lg:h-[70vh] h-[30vh] lg:w-3/4 rounded-2xl">
-                    <img src={image} alt="" className="w-full h-full rounded-2xl" />
+                    <img src={image} alt="" className="object-cover object-center w-full h-full rounded-2xl" />
                 </div>
             </div>
         </section>
