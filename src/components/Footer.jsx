@@ -26,7 +26,7 @@ function Footer() {
                   </a>
             </div>
         </div>
-        <p className="mt-2 font-light text-md">Copyright {new Date().getFullYear()}</p>
+        <p className="mt-2 text-xs font-light lg:text-md">Copyright {new Date().getFullYear()}</p>
     </footer>
   )
 }
