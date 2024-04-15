@@ -17,7 +17,10 @@ function Navbar() {
         </div>
       </div>
       <div className="flex items-center text-lg capitalize xl:gap-12 gap-x-4 max-lg:hidden">
-        <a href="" className="font-semibold leading-normal text-black duration-700 n transition-allo-underline hover:text-light ">home</a>
+        <a href="" className="relative font-semibold leading-normal text-black duration-700 n transition-allo-underline hover:text-light group ">
+          home
+          <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+          </a>
         <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">ticket</a>
         <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">explore</a>
         <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">activity</a>
