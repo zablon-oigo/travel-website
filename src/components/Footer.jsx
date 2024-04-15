@@ -12,9 +12,18 @@ function Footer() {
                   home
                 <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
                 </a>
-                <a href="" className="font-semibold capitalize lg:text-lg text-md">about</a>
-                <a href="" className="font-semibold capitalize lg:text-lg text-md">contact</a>
-                <a href="" className="font-semibold capitalize lg:text-lg text-md">services</a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">
+                  about
+                  <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+                  </a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">
+                  contact
+                  <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+                  </a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">
+                  services
+                  <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+                  </a>
             </div>
         </div>
         <p className="mt-2 font-light text-md">Copyright {new Date().getFullYear()}</p>
