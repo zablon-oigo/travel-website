@@ -8,10 +8,13 @@ function Footer() {
                 <h2 className="text-2xl font-bold duration-300 cursor-pointer hover:text-primary">Explore</h2>
             </div>
             <div className="flex gap-x-10">
-                <a href="" className="text-lg font-semibold capitalize">home</a>
-                <a href="" className="text-lg font-semibold capitalize">about</a>
-                <a href="" className="text-lg font-semibold capitalize">contact</a>
-                <a href="" className="text-lg font-semibold capitalize">services</a>
+                <a href="" className="relative font-semibold capitalize lg:text-lg text-md group">
+                  home
+                <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+                </a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">about</a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">contact</a>
+                <a href="" className="font-semibold capitalize lg:text-lg text-md">services</a>
             </div>
         </div>
         <p className="mt-2 font-light text-md">Copyright {new Date().getFullYear()}</p>
