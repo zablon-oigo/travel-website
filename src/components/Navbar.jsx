@@ -21,9 +21,18 @@ function Navbar() {
           home
           <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
           </a>
-        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">ticket</a>
-        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">explore</a>
-        <a href="" className="font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black ">activity</a>
+        <a href="" className="relative font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black group">
+          ticket
+          <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+          </a>
+        <a href="" className="relative font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black group">
+          explore
+        <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+        </a>
+        <a href="" className="relative font-semibold leading-normal no-underline transition-all duration-700 text-light hover:text-black group">
+          activity
+          <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
+          </a>
       </div>
       <div className="flex gap-4 max-lg:hidden">
         <button className="h-12 px-6 text-base duration-300 bg-transparent rounded shadow outline-none cursor-pointer text-light hover:bg-primary hover:text-white transition-bg hover:border hover:border-primary ">Sign In</button>
