@@ -46,32 +46,33 @@ function Card() {
                 <p className="text-gray-500">Find trips that fit a flexible lifestyle</p>
             </span>
             <div className="flex flex-col-reverse items-center justify-between py-6 lg:flex-row gap-y-4">
-                <div className="lg:w-2/5">
-                    <div className="">
-                        <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
-                        <h2 className="py-4 text-lg font-bold">Find trips that fit your freedom</h2>
-                        <p className="pb-6 text-light lg:w-1/2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, dolor error cumque perferendis a!
-                        </p>
-                    </div>
-                    <div className="">
-                        <span className="bg-[#8196e9] text-white px-3 py-1 rounded-xl">02</span>
-                        <h2 className="py-4 text-lg font-bold">Find trips that fit your freedom</h2>
-                        <p className="pb-6 text-light lg:w-1/2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, dolor error cumque perferendis a!
-                        </p>
-                    </div>
-                    <div className="">
-                        <span className="px-3 py-1 text-white bg-primary rounded-xl">03</span>
-                        <h2 className="py-4 text-lg font-bold">Find trips that fit your freedom</h2>
-                        <p className="pb-6 text-light lg:w-1/2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia, dolor error cumque perferendis a!
-                        </p>
-                    </div>
-                   <div className="flex justify-center md:justify-start">
-                   <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start your explore</button>
-                   </div>
+            <div className="lg:w-2/5">
+                <div className="">
+                    <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
+                    <h2 className="py-4 text-lg font-bold">Discover Exciting Destinations</h2>
+                    <p className="pb-6 text-light lg:w-1/2">
+                        Explore a wide range of destinations tailored to your interests and preferences. From bustling cities to serene natural wonders, find the perfect getaway for your next adventure.
+                    </p>
                 </div>
+                <div className="">
+                    <span className="bg-[#8196e9] text-white px-3 py-1 rounded-xl">02</span>
+                    <h2 className="py-4 text-lg font-bold">Plan Memorable Experiences</h2>
+                    <p className="pb-6 text-light lg:w-1/2">
+                        Dive into unique experiences curated by local experts. Whether you're seeking adrenaline-pumping activities or tranquil retreats, we have something for every traveler.
+                    </p>
+                </div>
+                <div className="">
+                    <span className="px-3 py-1 text-white bg-primary rounded-xl">03</span>
+                    <h2 className="py-4 text-lg font-bold">Travel with Confidence</h2>
+                    <p className="pb-6 text-light lg:w-1/2">
+                        Rest easy knowing that your journey is supported by our reliable guides and resources. From travel tips to safety recommendations, we're here to ensure your trip is smooth and worry-free.
+                    </p>
+                </div>
+            <div className="flex justify-center md:justify-start">
+                <button className="px-6 py-3 my-8 text-white shadow bg-primary transition-bg hover:bg-white hover:text-primary rounded-xl">Start Exploring</button>
+            </div>
+            </div>
+
                 <div className="lg:h-[70vh] h-[30vh] lg:w-3/4 rounded-2xl">
                     <img src={image} alt="" className="w-full h-full rounded-2xl" />
                 </div>
