@@ -9,7 +9,7 @@ function Card() {
         return(
             <div className="">
                 <div className="relative mx-auto my-0 overflow-hidden rounded-2xl">
-                    <img src={image} alt="" className="rounded-2xl lg:w-[300px] w-full h-[300px] box-border" />
+                    <img src={image} alt="" className="rounded-2xl lg:w-[300px] hover:scale-125 duration-700 w-full h-[300px] box-border" />
                     <p className="absolute p-1 text-sm bg-white rounded-lg top-4 right-4">20% off</p>
                 </div>
                 <div className="">
