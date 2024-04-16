@@ -1,18 +1,21 @@
 import React from 'react'
 import {HiLocationMarker} from 'react-icons/hi'
 import image from '../assets/splash.jpg'
+import beach from '../assets/beaches.jpg'
+import beach2 from '../assets/beaches2.jpg'
+import beach3 from '../assets/beaches3.jpg'
 function Card() {
     const Card=({image,text,location})=>{
         return(
             <div className="">
                 <div className="relative mx-auto my-0 overflow-hidden rounded-2xl">
-                    <img src="" alt="" className="rounded-2xl w-[300px] h-[300px] box-border" />
+                    <img src={image} alt="" className="rounded-2xl lg:w-[300px] w-full h-[300px] box-border" />
                     <p className="absolute p-1 text-sm bg-white rounded-lg top-4 right-4">20% off</p>
                 </div>
                 <div className="">
-                    <h5 className="pt-2 text-xl font-semibold">{text}</h5>
+                    <h5 className="pt-2 font-light text-md">{text}</h5>
                     <div className="flex items-center gap-2 py-3">
-                        <HiLocationMarker size={20} className='text-primary'/>
+                        <HiLocationMarker size={24} className='text-primary'/>
                         <p className="text-gray text-light">{location}</p>
                     </div>
                 </div>
@@ -34,9 +37,11 @@ function Card() {
                     </p>
                 </div>
                 <div className="relative z-10 grid grid-cols-1 gap-6 my-12 xl:grid-cols-4 md:grid-cols-2">
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    <Card image={beach} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
+                    <Card image={beach2} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
+                    <Card image={beach3} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
+                    <Card image={beach3} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
+                    
                 </div>
             </div>
         </section>
