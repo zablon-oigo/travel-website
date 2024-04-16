@@ -37,11 +37,11 @@ function Card() {
                     </p>
                 </div>
                 <div className="relative z-10 grid grid-cols-1 gap-6 my-12 xl:grid-cols-4 md:grid-cols-2">
-                    <Card image={beach} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
-                    <Card image={beach2} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
-                    <Card image={beach3} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
-                    <Card image={beach3} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ratione velit iusto quisquam voluptas recusandae?'} location={'Canada, sychelles'}/>
-                    
+                <Card image={beach} text={'Exploring the majestic peaks and tranquil valleys, finding solace in nature\'s embrace.'} location={'Rocky Mountains, Canada'}/>
+                <Card image={beach2} text={'Wandering through ancient forests, where every rustle speaks of secrets untold.'} location={'Pacific Northwest, USA'}/>
+                <Card image={beach3} text={'Venturing into the vast desert sands, where time seems to stand still under the blazing sun.'} location={'Sahara Desert, Africa'}/>
+                <Card image={beach} text={'Diving into the depths of the ocean, discovering a world of wonders beneath the waves.'} location={'Great Barrier Reef, Australia'}/>
+
                 </div>
             </div>
         </section>
