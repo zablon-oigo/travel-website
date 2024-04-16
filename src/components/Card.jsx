@@ -13,7 +13,7 @@ function Card() {
                     <p className="absolute p-1 text-sm bg-white rounded-lg top-4 right-4">20% off</p>
                 </div>
                 <div className="">
-                    <h5 className="pt-2 font-light text-md">{text}</h5>
+                    <h5 className="pt-2 text-sm font-light">{text}</h5>
                     <div className="flex items-center gap-2 py-3">
                         <HiLocationMarker size={24} className='text-primary'/>
                         <p className="text-sm text-gray text-light">{location}</p>
