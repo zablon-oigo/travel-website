@@ -29,7 +29,7 @@ function Card() {
             <div className="">
                 <div className="justify-between text-center lg:flex">
                 <span className="">
-                    <h2 className="text-4xl font-semibold">Exciting Adventures Await</h2>
+                    <h2 className="text-xl font-semibold lg:text-4xl">Exciting Adventures Await</h2>
                 </span>
                 <p className="text-light lg:w-2/5">
                     Uncover new horizons and create lasting memories.<br/>
