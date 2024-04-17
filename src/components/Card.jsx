@@ -31,7 +31,7 @@ function Card() {
                 <span className="">
                     <h2 className="text-xl font-semibold lg:text-4xl">Exciting Adventures Await</h2>
                 </span>
-                <p className="text-light lg:w-2/5">
+                <p className="text-sm text-light lg:text-md lg:w-2/5">
                     Uncover new horizons and create lasting memories.<br/>
                     Get ready for an unforgettable journey
                 </p>
