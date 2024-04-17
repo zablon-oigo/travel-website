@@ -49,8 +49,8 @@ function Card() {
         </section>
         <section className="px-4 py-16 lg:px-12">
             <span className="flex flex-col items-center gap-4">
-                <h2 className="text-2xl font-bold lg:text-4xl">Travel to make sweet memories</h2>
-                <p className="text-gray-500">Find trips that fit a flexible lifestyle</p>
+                <h2 className="text-xl font-bold lg:text-4xl">Travel to make sweet memories</h2>
+                <p className="text-gray-500 text-md">Find trips that fit a flexible lifestyle</p>
             </span>
             <div className="flex flex-col-reverse items-center justify-between py-6 lg:flex-row gap-y-2">
             <div className="lg:w-2/5">
