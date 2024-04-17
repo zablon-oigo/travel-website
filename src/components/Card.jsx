@@ -28,13 +28,15 @@ function Card() {
         <section className="pt-16">
             <div className="">
                 <div className="justify-between text-center lg:flex">
-                    <span className="">
-                        <h2 className="text-4xl">Popular Places</h2>
-                        <p className="py-4">Let&apos;s enjoy this heaven on earth</p>
-                    </span>
-                    <p className="text-light lg:w-2/5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, architecto.
-                    </p>
+                <span className="">
+                    <h2 className="text-4xl">Exciting Adventures Await</h2>
+                </span>
+                <p className="text-light lg:w-2/5">
+                    Uncover new horizons and create lasting memories.<br/>
+                    Get ready for an unforgettable journey
+                </p>
+
+
                 </div>
                 <div className="relative z-10 grid grid-cols-1 gap-6 my-12 xl:grid-cols-4 md:grid-cols-2">
                 <Card image={beach} text={'Exploring the majestic peaks and tranquil valleys, finding solace in nature\'s embrace.'} location={'Rocky Mountains, Canada'}/>
