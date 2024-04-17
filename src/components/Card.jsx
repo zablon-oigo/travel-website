@@ -57,7 +57,7 @@ function Card() {
                 <div className="">
                     <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
                     <h2 className="py-4 text-lg font-bold">Discover Exciting Destinations</h2>
-                    <p className="pb-6 text-light ">
+                    <p className="pb-6 text-sm lg:text-md text-light ">
                         Explore a wide range of destinations tailored to your interests and preferences. From bustling cities to serene natural wonders, find the perfect getaway for your next adventure.
                     </p>
                 </div>
