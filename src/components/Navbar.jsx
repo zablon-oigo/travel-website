@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {MdClose} from 'react-icons/md'
 import {HiMenuAlt3} from 'react-icons/hi'
+import ThemeSwitch from './ThemSwitch'
 function Navbar() {
   const[menu,setMenu]=useState(false)
   const toggleMenu=()=>{
@@ -34,7 +35,8 @@ function Navbar() {
           <span className="h-0.5 inset-x-0 duration-300 transform transition-transform bg-primary scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 origin-left"></span>
           </a>
       </div>
-      <div className="flex gap-4 max-lg:hidden">
+      <div className="flex items-center gap-4 max-lg:hidden">
+      <ThemeSwitch/>
         <button className="h-12 px-6 text-base duration-300 bg-transparent rounded shadow outline-none cursor-pointer text-light hover:bg-primary hover:text-white transition-bg hover:border hover:border-primary ">Sign In</button>
         <button className="h-12 px-6 text-base text-white duration-300 rounded shadow outline-none cursor-pointer bg-primary hover:bg-white hover:text-primary ">Sign Up</button>
       </div>
