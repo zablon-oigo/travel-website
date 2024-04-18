@@ -57,21 +57,21 @@ function Card() {
                 <div className="">
                     <span className="bg-[#7bbbde] text-white px-3 py-1 rounded-xl">01</span>
                     <h2 className="py-4 text-lg font-bold">Discover Exciting Destinations</h2>
-                    <p className="pb-6 text-sm lg:text-md text-light ">
+                    <p className="pb-6 text-lg lg:text-md text-light ">
                         Explore a wide range of destinations tailored to your interests and preferences. From bustling cities to serene natural wonders, find the perfect getaway for your next adventure.
                     </p>
                 </div>
                 <div className="">
                     <span className="bg-[#8196e9] text-white px-3 py-1 rounded-xl">02</span>
                     <h2 className="py-4 text-lg font-bold">Plan Memorable Experiences</h2>
-                    <p className="pb-6 text-light ">
+                    <p className="pb-6 text-lg lg:text-md text-light ">
                         Dive into unique experiences curated by local experts. Whether you're seeking adrenaline-pumping activities or tranquil retreats, we have something for every traveler.
                     </p>
                 </div>
                 <div className="">
                     <span className="px-3 py-1 text-white bg-primary rounded-xl">03</span>
                     <h2 className="py-4 text-lg font-bold">Travel with Confidence</h2>
-                    <p className="pb-6 text-light ">
+                    <p className="pb-6 text-lg lg:text-md text-light ">
                         Rest easy knowing that your journey is supported by our reliable guides and resources. From travel tips to safety recommendations, we're here to ensure your trip is smooth and worry-free.
                     </p>
                 </div>
