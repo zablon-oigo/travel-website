@@ -35,7 +35,7 @@ function Hero() {
                           
                             
                         
-                        <button className="flex items-center gap-2 whitespace-pre bg-transparent border-none outline-none text-light">
+                        <button className="flex items-center gap-2 text-xs whitespace-pre bg-transparent border-none outline-none lg:text-md text-light">
                             Last Searching
                             <FaArrowRight/>
                         </button>
