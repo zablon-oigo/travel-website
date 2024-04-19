@@ -47,7 +47,7 @@ function Hero() {
                         <p className="text-lg text-light">Destination</p>
                         
                         </div>
-                        <section className="grid grid-cols-5 my-8 place-content-center ">
+                        <section className="grid grid-cols-1 my-4 lg:grid-cols-5 place-content-center ">
                         <div className="relative flex items-center w-40 h-10">
                             <FaLocationDot className='absolute top-0 bottom-0 z-10 h-full left-2 text-primary'/>
                             <input type='text' placeholder="Bali, Indonesia" className='absolute h-full px-2 py-1 pl-6 text-sm rounded-md outline-none bg-light1'/>
