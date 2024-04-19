@@ -22,9 +22,9 @@ function Hero() {
             </div>
             
             <div className="lg:w-4/5 mx-auto lg:h-[70vh] h-full">
-            <div className="bg-white px-8 py-8 rounded-[10px] lg:absolute bottom-16 lg:w-4/5 shadow-lg flex flex-col justify-center">
-                    <div className="gap-4 lg:flex gap-x-2">
-                        <div className="flex flex-wrap w-full gap-x-16">
+            <div className="bg-white px-4 py-2 rounded-[10px] lg:absolute bottom-0 lg:w-4/5 shadow-lg ">
+                    <div className="">
+                        <div className="flex flex-wrap justify-center w-full gap-x-16">
                         <div className="flex justify-between gap-x-16">
                             <button className={`rounded-sm flex gap-x-2 items-center focus:outline-none h-14 text-base cursor-pointer bg-transparent whitespace-pre ${active === "Hostelry" ? "text-black border-b-2 border-solid border-black":"text-light"}`} onClick={()=> setActive("Hostelry")}>Hotel</button>
                             <button className={`rounded-sm flex gap-x-2 items-center focus:outline-none h-14 text-base cursor-pointer bg-transparent whitespace-pre ${active === "Flights" ? "text-black border-b-2 border-solid border-black":"text-light"}`}  onClick={()=> setActive("Flights")}>Flights</button>
