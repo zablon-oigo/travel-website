@@ -24,7 +24,7 @@ function Hero() {
             <div className="lg:w-4/5 mx-auto lg:h-[70vh] h-full">
             <div className="bg-white px-4 py-2 rounded-[10px] lg:absolute bottom-0 lg:w-4/5 shadow-lg ">
                     
-                        <div className="flex flex-wrap w-full lg:justify-center gap-x-16">
+                        <div className="flex flex-wrap justify-center w-full gap-x-16">
                         
                            
                            <button className={`rounded-sm   focus:outline-none h-10 lg:text-base text-xs cursor-pointer bg-transparent whitespace-pre ${active === "Hostelry" ? "text-black border-b-2 border-solid border-black":"text-light"}`} onClick={()=> setActive("Hostelry")}>Hotel</button>
