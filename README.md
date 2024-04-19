@@ -2,6 +2,13 @@
 
 **Client:** React,TailwindCSS
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/zablon-oigo/travel-website.git
+```
 Go to the project directory
 
 ```bash
