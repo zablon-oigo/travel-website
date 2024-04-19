@@ -44,7 +44,7 @@ function Hero() {
                     <div className="">
                     <div className="border-t border-solid ">
                         <div className="">
-                        <p className="text-lg text-light">Destination</p>
+                        <p className="text-xs md:text-lg text-light">Destination</p>
                         
                         </div>
                         <section className="grid grid-cols-1 my-4 lg:grid-cols-5 place-content-center ">
@@ -56,8 +56,6 @@ function Hero() {
                         <div className="relative flex w-40 h-10">
                             <FaCalendarAlt className='absolute top-0 bottom-0 z-10 h-full left-2 text-primary'/>
                             <input type='date' defaultValue={"2023-04-11"} className='absolute h-full px-2 py-1 pl-6 text-sm rounded-md outline-none bg-light1'/>
-
-                        
                         </div>
                         
                         
