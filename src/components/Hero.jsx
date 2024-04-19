@@ -47,7 +47,7 @@ function Hero() {
                         <p className="text-xs md:text-lg text-light">Destination</p>
                         
                         </div>
-                        <section className="grid grid-cols-1 my-4 lg:grid-cols-5 place-content-center ">
+                        <section className="grid grid-cols-2 gap-2 my-4 lg:grid-cols-5 place-content-center ">
                         <div className="relative flex items-center w-40 h-10">
                             <FaLocationDot className='absolute top-0 bottom-0 z-10 h-full left-2 text-primary'/>
                             <input type='text' placeholder="Bali, Indonesia" className='absolute h-full px-2 py-1 pl-6 text-sm rounded-md outline-none bg-light1'/>
@@ -71,7 +71,7 @@ function Hero() {
                             <input type='text' placeholder="1 Room, 2 Guest" className='absolute h-full px-2 py-1 pl-6 text-sm rounded-md outline-none bg-light1'/>
 
                         </div>
-                        <div className="flex items-center justify-center w-40 h-10 text-white">
+                        <div className="flex items-center justify-start w-full h-10 text-white lg:justify-center lg:w-40">
                         <button className="flex items-center h-full gap-2 px-2 duration-300 rounded-lg shadow outline-none bg-primary placeholder:text-white hover:bg-white hover:text-primary transition-bg">
                         <FaSearch/> Search
                                 
